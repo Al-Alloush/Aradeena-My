@@ -8,3 +8,7 @@ npm install bootstrap
 npm install font-awesome 
 
 ```
+## install  [Angular Material](https://material.angular.io/guide/getting-started):
+```
+ng add @angular/material
+```
