@@ -38,3 +38,23 @@ $Aradeena-theme: mat-light-theme((
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 // END Angular Material style
+
+.mr-1{
+  margin-right: 10Px;
+}
+.mr-2{
+  margin-right: 20Px;
+}
+.ml-1{
+  margin-left: 10Px;
+}
+.ml-2{
+  margin-left: 20Px;
+}
+
+.mb-1{
+  margin-bottom: 10Px;
+}
+.mb-2{
+  margin-bottom: 20Px;
+}
