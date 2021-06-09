@@ -5,6 +5,7 @@ import { PagesComponent } from './pages/pages.component';
 import { ShopComponent } from './shop/shop.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home',component:HomeComponent },
   {
     path: 'shop',

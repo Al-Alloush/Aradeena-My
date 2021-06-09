@@ -39,6 +39,8 @@ html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 // END Angular Material style
 
+//*********************************
+// Start margin ***************
 .mr-1{
   margin-right: 10Px;
 }
@@ -57,4 +59,10 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 }
 .mb-2{
   margin-bottom: 20Px;
+}
+// End margin ***************
+//******************************
+
+body [dir = "rtl"]{
+  text-align: start;
 }
