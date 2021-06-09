@@ -12,12 +12,16 @@ import {MatMenuModule} from '@angular/material/menu';
 
 //
 import { FlexLayoutModule } from "@angular/flex-layout";
+import { PagesListComponent } from './header/pages-list/pages-list.component';
+import { SettingsComponent } from './components/settings/settings.component';
 
 
 
 @NgModule({
   declarations: [
-    HeaderComponent
+    HeaderComponent,
+    PagesListComponent,
+    SettingsComponent
   ],
   imports: [
     CommonModule,
