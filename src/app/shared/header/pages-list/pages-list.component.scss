@@ -1,0 +1,7 @@
+#pagesList li a{
+  text-decoration: none;
+  &.active {
+    font-weight: bold;
+    color: green;
+  }
+}
