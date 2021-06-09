@@ -26,12 +26,12 @@ export class HeaderComponent implements OnInit {
       this.collapsed = true;
     }
   }
-  // close the menu list if click outside the navbar
-  @HostListener('document:click', ['$event'])
-  clickout(event) {
-    if(this.eRef.nativeElement.contains(event.target)) {
-    } else {
-      this.showClass = ""
-    }
-  }
+  // // close the menu list if click outside the navbar
+  // @HostListener('document:click', ['$event'])
+  // clickout(event) {
+  //   if(this.eRef.nativeElement.contains(event.target)) {
+  //   } else {
+  //     this.showClass = ""
+  //   }
+  // }
 }
